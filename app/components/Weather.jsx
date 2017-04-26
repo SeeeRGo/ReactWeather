@@ -6,7 +6,7 @@ var openWeatherMap = require('openWeatherMap');
 var ErrorModal = require('ErrorModal');
 
 var Weather = React.createClass({
-	getInitialState() {
+	getInitialState: function() {
 		return {
 			isLoading: false
 		}	
